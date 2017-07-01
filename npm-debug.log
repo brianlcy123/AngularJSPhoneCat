@@ -1,0 +1,72 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose install where, deps [ 'F:\\NetBeansWorkspace\\AngularJSPhoneCat',
+5 verbose install   [ 'bower',
+5 verbose install     'http-server',
+5 verbose install     'jasmine-core',
+5 verbose install     'karma',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-jasmine',
+5 verbose install     'protractor' ] ]
+6 verbose install where, peers [ 'F:\\NetBeansWorkspace\\AngularJSPhoneCat', [] ]
+7 info preinstall angular-phonecat@0.0.0
+8 verbose already installed skipping karma-jasmine@^0.3.8 F:\NetBeansWorkspace\AngularJSPhoneCat
+9 verbose already installed skipping protractor@^4.0.9 F:\NetBeansWorkspace\AngularJSPhoneCat
+10 verbose already installed skipping bower@^1.7.7 F:\NetBeansWorkspace\AngularJSPhoneCat
+11 verbose already installed skipping http-server@^0.9.0 F:\NetBeansWorkspace\AngularJSPhoneCat
+12 verbose already installed skipping jasmine-core@^2.4.1 F:\NetBeansWorkspace\AngularJSPhoneCat
+13 verbose already installed skipping karma@^0.13.22 F:\NetBeansWorkspace\AngularJSPhoneCat
+14 verbose already installed skipping karma-chrome-launcher@^0.2.3 F:\NetBeansWorkspace\AngularJSPhoneCat
+15 verbose already installed skipping karma-firefox-launcher@^0.1.7 F:\NetBeansWorkspace\AngularJSPhoneCat
+16 silly install resolved []
+17 info build F:\NetBeansWorkspace\AngularJSPhoneCat
+18 verbose linkStuff [ false, false, false, 'F:\\NetBeansWorkspace' ]
+19 info linkStuff angular-phonecat@0.0.0
+20 verbose linkBins angular-phonecat@0.0.0
+21 verbose linkMans angular-phonecat@0.0.0
+22 verbose rebuildBundles angular-phonecat@0.0.0
+23 verbose rebuildBundles [ '.bin',
+23 verbose rebuildBundles   'bower',
+23 verbose rebuildBundles   'http-server',
+23 verbose rebuildBundles   'jasmine-core',
+23 verbose rebuildBundles   'karma',
+23 verbose rebuildBundles   'karma-chrome-launcher',
+23 verbose rebuildBundles   'karma-firefox-launcher',
+23 verbose rebuildBundles   'karma-jasmine',
+23 verbose rebuildBundles   'protractor' ]
+24 info install angular-phonecat@0.0.0
+25 info postinstall angular-phonecat@0.0.0
+26 verbose unsafe-perm in lifecycle true
+27 info angular-phonecat@0.0.0 Failed to exec postinstall script
+28 verbose stack Error: angular-phonecat@0.0.0 postinstall: `bower install`
+28 verbose stack Exit status 1
+28 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:213:16)
+28 verbose stack     at EventEmitter.emit (events.js:110:17)
+28 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:14:12)
+28 verbose stack     at ChildProcess.emit (events.js:110:17)
+28 verbose stack     at maybeClose (child_process.js:1008:16)
+28 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1080:5)
+29 verbose pkgid angular-phonecat@0.0.0
+30 verbose cwd F:\NetBeansWorkspace\AngularJSPhoneCat
+31 error Windows_NT 6.3.9600
+32 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+33 error node v0.12.0
+34 error npm  v2.5.1
+35 error code ELIFECYCLE
+36 error angular-phonecat@0.0.0 postinstall: `bower install`
+36 error Exit status 1
+37 error Failed at the angular-phonecat@0.0.0 postinstall script 'bower install'.
+37 error This is most likely a problem with the angular-phonecat package,
+37 error not with npm itself.
+37 error Tell the author that this fails on your system:
+37 error     bower install
+37 error You can get their info via:
+37 error     npm owner ls angular-phonecat
+37 error There is likely additional logging output above.
+38 verbose exit [ 1, true ]
